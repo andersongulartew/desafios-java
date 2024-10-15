@@ -1,4 +1,4 @@
-package desafio_2;
+package src.main.desafio_2;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

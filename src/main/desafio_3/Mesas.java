@@ -1,12 +1,12 @@
-package desafio_3;
+package src.main.desafio_3;
 
 public class Mesas {
-    private int idMesa;
+    private int id;
     private int capacidade;
     private boolean ocupada;
 
     public Mesas(int id, int capacidade, boolean ocupada) {
-        this.idMesa = id;
+        this.id = id;
         this.capacidade = capacidade;
         this.ocupada = ocupada;
     }
@@ -16,11 +16,11 @@ public class Mesas {
     }
 
     public int getId() {
-        return idMesa;
+        return id;
     }
 
     public void setId(int id) {
-        this.idMesa = id;
+        this.id = id;
     }
 
     public int getCapacidade() {
@@ -42,7 +42,7 @@ public class Mesas {
     @Override
     public String toString() {
         return "Mesas{" +
-                "id=" + idMesa +
+                "id=" + id +
                 ", capacidade=" + capacidade +
                 ", ocupada=" + ocupada +
                 '}';

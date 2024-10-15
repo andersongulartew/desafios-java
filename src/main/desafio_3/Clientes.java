@@ -1,4 +1,4 @@
-package desafio_3;
+package src.main.desafio_3;
 
 public class Clientes {
 

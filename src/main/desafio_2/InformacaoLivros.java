@@ -1,4 +1,4 @@
-package desafio_2;
+package src.main.desafio_2;
 
 public class InformacaoLivros {
     private int id;

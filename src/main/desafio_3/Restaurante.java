@@ -1,4 +1,4 @@
-package desafio_3;
+package src.main.desafio_3;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
